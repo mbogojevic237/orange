@@ -22,12 +22,9 @@ Start a cluster:
 Install python libraries:
 -  ```pip install -r requirements.txt ```
 
-Run unittest ```test_producer.py```.
-
-Run  ```producer.py```.
-
-Run unittest ```test_produced_messages.py``` and check all messages are produced.
-
-Run ```consumer.py```.
-
-Run unittest  ```test_consumer.py``` and check all messages are consumed.
+Run python:
+- unittest ```test_producer.py```.
+- ```producer.py```.
+- unittest ```test_produced_messages.py```: check all messages are produced.
+- ```consumer.py```.
+- ```test_consumer.py```: check all messages are consumed.
