@@ -1,6 +1,5 @@
 import unittest
-from consumer import Consumer, ConsumeMessage
-from pykafka import KafkaClient
+from consumer import Consumer
 
 
 class TestConsumer(unittest.TestCase):
