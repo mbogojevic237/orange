@@ -24,7 +24,7 @@ Install python libraries:
 
 Run python:
 - unittest ```test_producer.py```.
-- ```producer.py```.
+- Producer ```producer.py```.
 - unittest ```test_produced_messages.py```: check all messages are produced.
-- ```consumer.py```.
-- ```test_consumer.py```: check all messages are consumed.
+- Consumer ```consumer.py```.
+- unittest ```test_consumer.py```: check all messages are consumed.
