@@ -11,8 +11,6 @@ class Consumer():
     def consumer(self):
         return self.topic.get_simple_consumer()
 
-
-
 class ConsumeMessage():
 
     def div_check(self, n):
