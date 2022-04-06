@@ -16,7 +16,7 @@ The image is available directly from [Docker Hub](https://hub.docker.com/r/wurst
 **NOTE:** ```KAFKA_LOG_RETENTION_MS: 60000``` messages will be deleted after 60 seconds
 
 ## Usage
-Start a cluster:
+Start cluster:
 - ```docker-compose up -d ```
 
 Install python libraries:
